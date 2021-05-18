@@ -4,6 +4,8 @@ import projeto1 from "../../assets/projeto1.png";
 import styled from "styled-components";
 const Container = styled.div`
   width: 100%;
+`;
+const Content = styled.div`
   display: flex;
 `;
 const Wrapper = styled.div`
@@ -39,32 +41,65 @@ const Button = styled.button`
   bottom: 0;
   right: 5%;
 `;
+const Footer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+`;
+const Contacts = styled.div``;
+const Pages = styled.div`
+  color: #ffff;
+  display: flex;
+  strong {
+    font-weight: 600;
+    font-size: 18px;
+  }
+`;
 
 export function Main() {
   return (
     <Container>
-      <Projects>
-        <a
-          href="https://money-transfer-zeta.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={projeto1} alt="projeto" />
-        </a>
-        <Button>
-          <img src={arrowRight} alt="" />
-        </Button>
-      </Projects>
-      <Wrapper>
-        <h1>Still</h1>
-        <h2>Together</h2>
-        <Span>
-          <p>
-            Keep away from people who try to belittle your ambitions, Small
-            people always do that.
-          </p>
-        </Span>
-      </Wrapper>
+      <Content>
+        <Projects>
+          <a
+            href="https://money-transfer-zeta.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={projeto1} alt="projeto" />
+          </a>
+          <Button>
+            <img src={arrowRight} alt="" />
+          </Button>
+        </Projects>
+        <Wrapper>
+          <h1>Still</h1>
+          <h2>Together</h2>
+          <Span>
+            <p>
+              Keep away from people who try to belittle your ambitions, Small
+              people always do that.
+            </p>
+          </Span>
+        </Wrapper>
+      </Content>
+      <Footer>
+        <Contacts>
+          <a
+            href="https://github.com/MarieleRibeiro"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GH
+          </a>
+          <a href="">FB</a>
+          <a href="">LK</a>
+        </Contacts>
+        <Pages>
+          <strong>1</strong> ––––– <strong>3</strong>
+        </Pages>
+      </Footer>
     </Container>
   );
 }
