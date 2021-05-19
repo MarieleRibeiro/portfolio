@@ -1,21 +1,25 @@
 import styled from "styled-components";
 export const Container = styled.div`
-  height: 50px;
-  margin-bottom: 120px;
+  height: 3.125rem;
+  margin-bottom: 5%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 `;
 export const Name = styled.div`
-  width: 119px;
-  height: 47px;
+  width: 7.5rem;
+  height: 3rem;
   background: #2b2a2b;
   color: #ffff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Playfair Display";
   font-style: italic;
-  line-height: 23.99px;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+  a {
+    margin-left: 2.75rem;
+  }
+`;

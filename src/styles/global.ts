@@ -2,18 +2,18 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
-* {
-  margin: 0; 
-  padding: 0; 
-  border: 0;
+  * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
 }
 
 body {
-  width: 100%;
  background: #252425;
  -webkit-font-smoothing: antialiased; 
+}
+button {
+  cursor: pointer;
 }
 
 h1 {
@@ -36,7 +36,6 @@ a {
  color: #FFFFFF;
  font-weight: 400;
  font-size: 18px;
- margin-left: 44px;
  line-height: 22px;
 }
  
@@ -46,5 +45,14 @@ p {
   line-height: 22px;
 
 }
+
+/* html {
+  @media (max-width: 1080px){
+    font-size: 93.75%; // 15px
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%; // 14px
+  }
+} */
 
 `;

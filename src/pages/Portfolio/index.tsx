@@ -3,9 +3,9 @@ import { Main } from "../../components/main";
 
 import styled from "styled-components";
 const Container = styled.div`
-  max-width: 1440px;
-  width: 100%;
-  padding: 56px 86px 0 49px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 `;
 
 export function Portfolio() {
