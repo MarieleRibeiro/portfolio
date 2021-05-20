@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
+  /* width: 100%; */
 `;
 export const Content = styled.div`
+  width: 100%;
   display: flex;
 `;
 export const Wrapper = styled.div`
@@ -11,13 +12,14 @@ export const Wrapper = styled.div`
 
   h1 {
     margin-left: -2.1875rem;
+    width: 375px;
   }
   h2 {
     margin-left: -5.625rem;
   }
 `;
 export const Span = styled.div`
-  max-width: 22.25rem;
+  /* max-width: 22.25rem; */
   width: 100%;
   height: 4.125rem;
   margin: 2.5rem 0 0 2rem;

@@ -4,6 +4,7 @@ import { Main } from "../../components/main";
 import styled from "styled-components";
 const Container = styled.div`
   max-width: 1120px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem 1rem;
 `;
