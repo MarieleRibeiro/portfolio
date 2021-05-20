@@ -1,8 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  /* width: 100%; */
-`;
 export const Content = styled.div`
   width: 100%;
   display: flex;
@@ -19,7 +16,7 @@ export const Wrapper = styled.div`
   }
 `;
 export const Span = styled.div`
-  /* max-width: 22.25rem; */
+  max-width: 22.25rem;
   width: 100%;
   height: 4.125rem;
   margin: 2.5rem 0 0 2rem;
@@ -28,9 +25,17 @@ export const Projects = styled.div`
   max-width: 877px;
   position: relative;
   z-index: 1;
+  background: linear-gradient(
+      249.37deg,
+      rgba(37, 36, 37, 0.71) 11.85%,
+      rgba(255, 255, 255, 0) 97.61%
+    ),
+    url(.png), #c4c4c4;
 
-  img {
-    width: 100%;
+  a {
+    img {
+      width: 100%;
+    }
   }
 `;
 export const Button = styled.button`

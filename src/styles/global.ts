@@ -9,6 +9,10 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
  background: #252425;
  -webkit-font-smoothing: antialiased; 
 }
