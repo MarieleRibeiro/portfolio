@@ -23,19 +23,18 @@ export const Span = styled.div`
 `;
 export const Projects = styled.div`
   max-width: 877px;
+  width: 100%;
   position: relative;
   z-index: 1;
-  background: linear-gradient(
+  /* background: linear-gradient(
       249.37deg,
       rgba(37, 36, 37, 0.71) 11.85%,
       rgba(255, 255, 255, 0) 97.61%
     ),
-    url(.png), #c4c4c4;
+    url(.png), #c4c4c4; */
 
-  a {
-    img {
-      width: 100%;
-    }
+  a > img {
+    width: 100%;
   }
 `;
 export const Button = styled.button`

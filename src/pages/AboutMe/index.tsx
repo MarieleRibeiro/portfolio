@@ -1,15 +1,16 @@
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { Header } from "../../components/header";
+import {
+  Contacts,
+  Content,
+  Footer,
+  Pages,
+  Span,
+} from "../../components/main/styles";
 
 import styled from "styled-components";
-const Content = styled.div``;
 const Profile = styled.div``;
 const Wrapper = styled.div``;
-const Span = styled.div``;
-const Footer = styled.div``;
-const Contacts = styled.div``;
-
-const Pages = styled.div``;
 
 export function AboutMe() {
   return (
@@ -27,7 +28,7 @@ export function AboutMe() {
           </Span>
         </Wrapper>
         <Profile>
-          <img src="" alt="projeto" />
+          <img src="" alt="foto" />
         </Profile>
       </Content>
       <Footer>
