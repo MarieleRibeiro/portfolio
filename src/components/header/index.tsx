@@ -1,4 +1,5 @@
 import { Container, Name, Wrapper } from "./styles";
+import { AboutMe } from '../../pages/AboutMe'
 
 export function Header() {
   return (
@@ -6,7 +7,7 @@ export function Header() {
       <Name>Mariele</Name>
       <Wrapper>
         <a href="/">Portfolio</a>
-        <a href="/">Let’s Talk ✌</a>
+        <a href='/'>Let’s Talk ✌</a>
       </Wrapper>
     </Container>
   );

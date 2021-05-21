@@ -1,5 +1,6 @@
 import arrowRight from "../../assets/arrow-right.svg";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
+
 import projeto01 from "../../assets/project01.png";
 import projeto02 from "../../assets/project02.png";
 import projeto03 from "../../assets/project03.png";
