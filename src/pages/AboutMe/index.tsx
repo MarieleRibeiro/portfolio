@@ -1,15 +1,46 @@
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { Header } from "../../components/header";
+import {
+  Contacts,
+  Content,
+  Footer,
+  Pages
+} from "../../components/main/styles";
+import perfil from "../../assets/perfil.svg"
 
 import styled from "styled-components";
-const Content = styled.div``;
-const Profile = styled.div``;
-const Wrapper = styled.div``;
-const Span = styled.div``;
-const Footer = styled.div``;
-const Contacts = styled.div``;
+const Profile = styled.div`
+  max-width: 550px;
+  width: 100%;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  background: 
+  linear-gradient(249.37deg, rgba(37, 36, 37, 0.71) 
+  11.85%, rgba(255, 255, 255, 0) 97.61%), url(.png), #C4C4C4;
+  
+   img {
+      width: 100%;
+     }
+`;
+const Wrapper = styled.div`
+z-index: 1;
+width: 356px;
 
-const Pages = styled.div``;
+h1 {
+  margin-left: 7.1875rem;
+  /* width: 375px; */
+}
+h2 {
+  margin-left: 11.625rem;
+}
+`
+const Span = styled.div`
+  max-width: 356px;
+  /* width: 100%; */
+  height: 4.125rem;
+  margin: 2.5rem 72px 0px 0;
+`;
 
 export function AboutMe() {
   return (
@@ -27,7 +58,7 @@ export function AboutMe() {
           </Span>
         </Wrapper>
         <Profile>
-          <img src="" alt="projeto" />
+          <img src={perfil} alt="foto" />
         </Profile>
       </Content>
       <Footer>
@@ -55,7 +86,7 @@ export function AboutMe() {
           </a>
         </Contacts>
         <Pages>
-          <a href="/">Projects</a>
+          <a href="/projects">Projects</a>
         </Pages>
       </Footer>
     </>

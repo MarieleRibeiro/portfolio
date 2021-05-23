@@ -35,12 +35,15 @@ h2 {
 }
 a {
   text-decoration: none; 
-  color: inherit;
   display: inline-block; 
  color: #FFFFFF;
  font-weight: 400;
  font-size: 18px;
  line-height: 22px;
+
+ :hover {
+   color: #E5A67C;
+ }
 }
  
 p {
