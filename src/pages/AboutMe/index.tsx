@@ -87,7 +87,7 @@ export function AboutMe() {
           </a>
         </Contacts>
         <Pages>
-          <a href="/projects">Projects</a>
+          <a href="/">Projects</a>
         </Pages>
       </Footer>
     </>

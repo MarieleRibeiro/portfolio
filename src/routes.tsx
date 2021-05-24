@@ -7,7 +7,7 @@ export function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/projects" exact component={Projects} />
+        <Route path="/" exact component={Projects} />
         <Route path="/aboutMe" component={AboutMe} />
       </Switch>
     </BrowserRouter>
