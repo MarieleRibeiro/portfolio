@@ -27,14 +27,10 @@ export const Projects = styled.div`
   position: relative;
   width: 100%;
   z-index: 1;
-  background: 
-  linear-gradient(249.37deg, rgba(37, 36, 37, 0.71) 
-  11.85%, rgba(255, 255, 255, 0) 97.61%), url(.svg), #C4C4C4;
-  
- 
+  background: linear-gradient(249.37deg, rgba(37, 36, 37, 0.71) 11.85%, rgba(255, 255, 255, 0) 97.61%), url(.jpg), #C4C4C4;
+
   a > img {
       width: 100%;
-     
      }
      
 `;
