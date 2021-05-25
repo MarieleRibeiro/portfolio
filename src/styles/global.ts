@@ -7,38 +7,48 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  @media (max-width: 1080px){
+    font-size: 93.75%; // 15px
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%; // 14px
+  }
+}
 
 body {
   max-width: 1120px;
   width: 100%;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
  background: #252425;
  -webkit-font-smoothing: antialiased; 
 }
 button {
   cursor: pointer;
+  outline: none;
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
-  font-size: 96px;
+  font-size: 6rem;
  color: #FFFFFF;
 }
+
 h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
-  font-size: 96px;
+  font-size: 6rem;
   color: #E5A67C;
-
 }
+
 a {
   text-decoration: none; 
   display: inline-block; 
  color: #FFFFFF;
  font-weight: 400;
- font-size: 18px;
+ font-size: 1.125rem;
  line-height: 22px;
 
  :hover {
@@ -47,7 +57,7 @@ a {
 }
  
 p {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #FFFFFF;
   line-height: 22px;
 

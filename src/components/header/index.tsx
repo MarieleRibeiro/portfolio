@@ -6,7 +6,7 @@ export function Header() {
       <Name>Mariele</Name>
       <Wrapper>
         <a href="/">Portfólio</a>
-        <a href='/aboutMe'>Let’s Talk ✌</a>
+        <a href="/about">Let’s Talk ✌</a>
       </Wrapper>
     </Container>
   );

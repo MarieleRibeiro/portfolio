@@ -3,16 +3,32 @@ import styled from "styled-components";
 export const Content = styled.div`
   width: 100%;
   display: flex;
+  @media (max-width: 960px) {
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 export const Wrapper = styled.div`
   z-index: 999;
+  @media (max-width: 960px) {
+    width: 90%;
+  }
 
   h1 {
     margin-left: -2.1875rem;
-    width: 375px;
+    width: 22.5rem;
+    @media (max-width: 960px) {
+      font-size: 4.375rem;
+      margin: auto;
+    }
   }
   h2 {
     margin-left: -5.625rem;
+    @media (max-width: 960px) {
+      margin: auto;
+    }
   }
 `;
 export const Span = styled.div`
@@ -25,22 +41,34 @@ export const Projects = styled.div`
   max-width: 877px;
   width: 100%;
   position: relative;
-  width: 100%;
   z-index: 1;
-  background: linear-gradient(249.37deg, rgba(37, 36, 37, 0.71) 11.85%, rgba(255, 255, 255, 0) 97.61%), url(.jpg), #C4C4C4;
+  background: linear-gradient(
+      249.37deg,
+      rgba(37, 36, 37, 0.71) 11.85%,
+      rgba(255, 255, 255, 0) 97.61%
+    ),
+    url(.svg), #c4c4c4;
 
   a > img {
-      width: 100%;
-     }
-     
+    width: 100%;
+  }
 `;
 export const Button = styled.button`
   width: 8.62rem;
   position: absolute;
   border: none;
   background: transparent;
-  bottom: 0;
-  right: 1.25rem;
+  bottom: -20px;
+  right: 0.25rem;
+  @media (max-width: 960px) {
+    right: -1.75rem;
+  }
+
+  @media (max-width: 960px) {
+    img {
+      width: 70%;
+    }
+  }
 `;
 export const Footer = styled.div`
   width: 100%;
@@ -58,9 +86,13 @@ export const Pages = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
   strong {
     font-weight: 600;
     font-size: 18px;
+    :first-child {
+      color: #e5a67c;
+    }
   }
 
   hr {
