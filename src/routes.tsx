@@ -1,7 +1,7 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import { Projects } from "./pages/Portfolio";
-import { About } from "./pages/AboutMe";
+import { About } from "./pages/About";
 
 export function Routes() {
   return (

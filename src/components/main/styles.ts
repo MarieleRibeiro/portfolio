@@ -5,7 +5,7 @@ export const Content = styled.div`
   display: flex;
   @media (max-width: 960px) {
     flex-direction: column-reverse;
-    /* width: 100%; */
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -38,7 +38,8 @@ export const Span = styled.div`
   margin: 2.5rem 0 0 2rem;
   @media (max-width: 960px) {
     margin: 0;
-    }
+    padding: 1rem;
+  }
 `;
 export const Projects = styled.div`
   max-width: 877px;
