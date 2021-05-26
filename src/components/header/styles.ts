@@ -19,6 +19,12 @@ export const Name = styled.div`
   justify-content: center;
 `;
 export const Wrapper = styled.div`
+ @media (max-width: 960px) {
+  
+    a:first-child {
+      display: none;
+    }
+    }
   a {
     margin-left: 2.75rem;
   }
