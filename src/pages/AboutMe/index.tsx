@@ -43,7 +43,7 @@ const Span = styled.div`
   margin: 2.5rem 72px 0px 0;
 `;
 
-export function AboutMe() {
+export function About() {
   return (
     <>
       <Header />

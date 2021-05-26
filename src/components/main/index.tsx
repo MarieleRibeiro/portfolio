@@ -22,7 +22,7 @@ const PROJECTS = [
     index: 0,
     name: "Money",
     surname: "Transfer",
-    description: "Converção e transferência de moedas",
+    description: "Projeto com a finalidade de conversão e transferência de moedas de diferentes países. Desenvolvido com os conceitos e fundamentos do React, utilizando Styled-Components, Axios e hooks e tendo uma Api externa para a busca e listagem das moedas.",
     image: projeto01,
     url: "https://money-transfer-zeta.vercel.app/",
   },
@@ -30,7 +30,7 @@ const PROJECTS = [
     index: 1,
     name: "Landing",
     surname: "Yoga",
-    description: "Yoga",
+    description: "Landing Page simples e responsiva voltada para o marketing de um aplicativo. Desenvolvido com React, Styled-Components.",
     image: projeto02,
     url: "https://landing-page-yoga-marieleribeiro.vercel.app/",
   },
@@ -38,7 +38,7 @@ const PROJECTS = [
     index: 2,
     name: "Dashboard",
     surname: "Inbox",
-    description: "Pagina de e-mail",
+    description: "Projeto que tem por objetivo mostrar a interface simples de uma caixa de e-mail, utilizando React e Styled-Components.  ",
     image: projeto03,
     url: "https://dashboard-inbox.vercel.app/",
   },
@@ -81,13 +81,6 @@ export function Main() {
             rel="noreferrer"
           >
             <FaGithub size={22} />
-          </a>
-          <a
-            href="https://github.com/MarieleRibeiro"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaFacebook size={22} />
           </a>
           <a
             href="https://github.com/MarieleRibeiro"
