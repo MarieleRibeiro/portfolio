@@ -34,11 +34,10 @@ export const Wrapper = styled.div`
 export const Span = styled.div`
   max-width: 22.25rem;
   width: 100%;
-  height: 4.125rem;
+  /* height: 4.125rem; */
   margin: 2.5rem 0 0 2rem;
   @media (max-width: 960px) {
     margin: 0;
-    
     }
 `;
 export const Projects = styled.div`
