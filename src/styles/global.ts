@@ -57,7 +57,7 @@ a {
 }
  
 p {
-  text-indent: 2rem;
+  text-indent: 1rem;
   font-size: 1.125rem;
   color: #FFFFFF;
   line-height: 22px;

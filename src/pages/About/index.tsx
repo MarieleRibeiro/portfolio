@@ -15,17 +15,20 @@ export function About() {
           <Span>
             <p>
               Olá, me chamo Mariele e estou estudando programação desde de 2020,
-              mas precisamente á 01 ano nessa área. <br />
-              Comecei sem muita perpectiva mas com o passar do tempo esse
-              universo acabou ganhando um espaço importante na minha vida, a
-              vontande de aprender coisas novas e o entusiasmo me levaram a
-              continuar e a querer crescer profissionalmente.
-              <br />
-              Desde que comecei venho estudando diariamente e colocando em
-              prática todo o conhecimento aquirido ao longo desse tempo. Busco
-              uma oportunidade
+              mas precisamente a 01 ano nessa área.
             </p>
           </Span>
+          <p>
+            Comecei sem muitas perpectivas mas com o passar do tempo o universo
+            da tecnologia acabou ganhando um espaço importante na minha vida, a
+            vontande de aprender coisas novas e o entusiasmo me levaram a
+            continuar e a querer crescer profissionalmente na área.
+          </p>
+          <p>
+            Desde que comecei venho estudando diariamente e colocando em prática
+            todo o conhecimento adquirido ao longo desse tempo. E nesse momento,
+            mais preparada busco uma oportunidade na área de Front-End
+          </p>
         </Wrapper>
         <Profile>
           <img src={perfil} alt="foto" />
