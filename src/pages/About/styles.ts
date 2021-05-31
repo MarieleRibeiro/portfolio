@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const Profile = styled.div`
-  /* position: relative;
-  z-index: -1; */
+  width: 60%;
+  margin-left: 2rem;
 
   @media (max-width: 960px) {
     margin: 1rem;
@@ -13,6 +13,7 @@ export const Profile = styled.div`
 `;
 export const Wrapper = styled.div`
   z-index: 1;
+  
 
   h1 {
     margin-left: 7.1875rem;

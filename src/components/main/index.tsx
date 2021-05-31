@@ -1,9 +1,9 @@
 import arrowRight from "../../assets/arrow-right.svg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-import projeto01 from "../../assets/project01.svg";
-import projeto02 from "../../assets/project02.svg";
-import projeto03 from "../../assets/project03.svg";
+import projeto01 from "../../assets/project01.01.png";
+import projeto02 from "../../assets/project02.2.png";
+import projeto03 from "../../assets/project03.3.png";
 
 import {
   Content,
@@ -86,7 +86,7 @@ export function Main() {
             <FaGithub size={22} />
           </a>
           <a
-            href="https://github.com/MarieleRibeiro"
+            href="https://www.linkedin.com/in/mariele-ribeiro-027baab9/"
             target="_blank"
             rel="noreferrer"
           >

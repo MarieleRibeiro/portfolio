@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Header } from "../../components/header";
 import { Contacts, Content, Footer, Pages } from "../../components/main/styles";
 import { Wrapper, Span, Profile } from "./styles";
-import perfil from "../../assets/perfil.svg";
+import photo from "../../assets/photo1.jpeg";
 
 export function About() {
   return (
@@ -27,11 +27,11 @@ export function About() {
           <p>
             Desde que comecei venho estudando diariamente e colocando em prática
             todo o conhecimento adquirido ao longo desse tempo. E nesse momento,
-            mais preparada busco uma oportunidade na área de Front-End
+            mais preparada busco uma oportunidade na área de Front-End.
           </p>
         </Wrapper>
         <Profile>
-          <img src={perfil} alt="foto" />
+          <img src={photo} alt="foto" />
         </Profile>
       </Content>
       <Footer>
