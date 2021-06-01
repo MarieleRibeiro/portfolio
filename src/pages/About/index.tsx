@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Header } from "../../components/header";
 import { Contacts, Content, Footer, Pages } from "../../components/main/styles";
 import { Wrapper, Span, Profile } from "./styles";
-import photo from "../../assets/photo1.jpeg";
+import photo from "../../assets/photo001.jpeg";
 
 export function About() {
   return (
