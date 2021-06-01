@@ -86,7 +86,7 @@ export function Main() {
             <FaGithub size={22} />
           </a>
           <a
-            href="https://www.linkedin.com/in/mariele-ribeiro-027baab9/"
+            href="https://www.linkedin.com/in/mariele-ribeiro/"
             target="_blank"
             rel="noreferrer"
           >

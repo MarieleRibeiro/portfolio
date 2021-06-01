@@ -44,7 +44,7 @@ export function About() {
             <FaGithub size={22} />
           </a>
           <a
-            href="https://github.com/MarieleRibeiro"
+            href="https://www.linkedin.com/in/mariele-ribeiro/"
             target="_blank"
             rel="noreferrer"
           >
