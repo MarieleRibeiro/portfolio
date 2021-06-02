@@ -23,7 +23,7 @@ const PROJECTS = [
     name: "Money",
     surname: "Transfer",
     description:
-      "Projeto com a finalidade de conversão e transferência de moedas de diferentes países. Desenvolvido com os conceitos e fundamentos do React, utilizando Styled-Components, Axios e hooks e tendo uma Api externa para a busca e listagem das moedas.",
+      "Project with the purpose of converting and transferring currencies from different countries. Developed with the concepts and fundamentals of React, using Styled-Components, Axios and hooks and having an external Api for searching and listing currencies.",
     image: projeto01,
     url: "https://money-transfer-zeta.vercel.app/",
   },
@@ -32,7 +32,7 @@ const PROJECTS = [
     name: "Landing",
     surname: "Yoga",
     description:
-      "Landing Page simples e responsiva voltada para o marketing de um aplicativo. Desenvolvido com React, Styled-Components.",
+      "Simple and responsive landing page aimed at marketing an app. Developed with React, Styled-Components.",
     image: projeto02,
     url: "https://landing-page-yoga-marieleribeiro.vercel.app/",
   },
@@ -41,7 +41,7 @@ const PROJECTS = [
     name: "Dashboard",
     surname: "Inbox",
     description:
-      "Projeto que tem por objetivo mostrar a interface simples de uma caixa de e-mail, utilizando React e Styled-Components.  ",
+      "Project that aims to show the simple interface of an inbox, using React and Styled-Components.",
     image: projeto03,
     url: "https://dashboard-inbox.vercel.app/",
   },
