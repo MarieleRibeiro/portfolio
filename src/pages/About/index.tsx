@@ -1,6 +1,6 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Header } from "../../components/header";
-import { Contacts, Content, Footer, Pages } from "../../components/main/styles";
+import { MediaContacts } from "../../components/footer";
+import { Content, Footer } from "../../components/main/styles";
 import { Wrapper, Span, Profile } from "./styles";
 import photo from "../../assets/photo001.jpeg";
 
@@ -35,25 +35,7 @@ export function About() {
         </Profile>
       </Content>
       <Footer>
-        <Contacts>
-          <a
-            href="https://github.com/MarieleRibeiro"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub size={22} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mariele-ribeiro/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin size={22} />
-          </a>
-        </Contacts>
-        <Pages>
-          <a href="/">Projects</a>
-        </Pages>
+        <MediaContacts />
       </Footer>
     </>
   );

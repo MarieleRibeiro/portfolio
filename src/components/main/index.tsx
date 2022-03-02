@@ -1,6 +1,4 @@
 import arrowRight from "../../assets/arrow-right.svg";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-
 import projeto01 from "../../assets/project01.01.png";
 import projeto02 from "../../assets/project02.2.png";
 import projeto03 from "../../assets/project03.3.png";
@@ -12,10 +10,10 @@ import {
   Wrapper,
   Span,
   Footer,
-  Contacts,
   Pages,
 } from "./styles";
 import { useState } from "react";
+import { MediaContacts } from "../footer";
 
 const PROJECTS = [
   {
@@ -77,24 +75,8 @@ export function Main() {
         </Wrapper>
       </Content>
       <Footer>
-        <Contacts>
-          <a
-            id="github"
-            href="https://github.com/MarieleRibeiro"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub size={30} />
-          </a>
-          <a
-            id="linkedin"
-            href="https://www.linkedin.com/in/mariele-ribeiro/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin size={30} />
-          </a>
-        </Contacts>
+        <MediaContacts />
+
         <Pages>
           <strong>0{currentProject.index + 1}</strong>
           <hr />
