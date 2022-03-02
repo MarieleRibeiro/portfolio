@@ -46,15 +46,9 @@ export const Projects = styled.div`
   width: 100%;
   position: relative;
   z-index: 1;
-  /* background: linear-gradient(
-      249.37deg,
-      rgba(37, 36, 37, 0.71) 11.85%,
-      rgba(255, 255, 255, 0) 97.61%
-    ),
-    url(.svg), #c4c4c4; */
-
   a > img {
     width: 100%;
+    border-radius: 10px;
   }
 `;
 export const Button = styled.button`
@@ -62,7 +56,7 @@ export const Button = styled.button`
   position: absolute;
   border: none;
   background: transparent;
-  bottom: -20px;
+  bottom: -15px;
   right: 0.25rem;
   @media (max-width: 960px) {
     right: -1.75rem;
@@ -80,11 +74,43 @@ export const Footer = styled.div`
   justify-content: space-between;
   margin-top: 51px;
 `;
+
 export const Contacts = styled.div`
-  a:nth-child(2) {
-    margin: 0 2rem;
+  #linkedin,
+  #github {
+    background-color: #18191f;
+    color: #fff;
+    /* box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+      2px 2px 10px #00000080, 2px 2px 3px #00000080,
+      inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+      inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080; */
+    border-radius: 29px;
+    padding: 8px;
+    margin: 0 16px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+      0 0 200px #0072ff;
+  }
+  #linkedin {
+    animation-delay: 0.3s;
+  }
+  #github {
+    animation-delay: 0.7s;
+  }
+  @keyframes animate {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+  }
+  svg {
+    background-color: darkblue;
+    border-radius: 100%;
   }
 `;
+
 export const Pages = styled.div`
   color: #ffff;
   display: flex;

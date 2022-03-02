@@ -22,6 +22,9 @@ body {
   margin: 0 auto;
   padding: 2.5rem 1rem;
  background: #252425;
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
  -webkit-font-smoothing: antialiased; 
 }
 button {

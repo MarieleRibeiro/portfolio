@@ -25,7 +25,7 @@ const PROJECTS = [
     description:
       "Project with the purpose of converting and transferring currencies from different countries. Developed with the concepts and fundamentals of React, using Styled-Components, Axios and hooks and having an external Api for searching and listing currencies.",
     image: projeto01,
-    url: "https://money-transfer-zeta.vercel.app/",
+    url: "https://transfer-money.vercel.app/",
   },
   {
     index: 1,
@@ -79,18 +79,20 @@ export function Main() {
       <Footer>
         <Contacts>
           <a
+            id="github"
             href="https://github.com/MarieleRibeiro"
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub size={22} />
+            <FaGithub size={30} />
           </a>
           <a
+            id="linkedin"
             href="https://www.linkedin.com/in/mariele-ribeiro/"
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin size={22} />
+            <FaLinkedin size={30} />
           </a>
         </Contacts>
         <Pages>
