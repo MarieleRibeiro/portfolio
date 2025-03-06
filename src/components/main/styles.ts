@@ -83,7 +83,7 @@ export const Contacts = styled.div`
       2px 2px 10px #00000080, 2px 2px 3px #00000080,
       inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
       inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080; */
-    border-radius: 29px;
+    border-radius: 29px;  
 
     margin: 0 16px;
     animation: animate 3s linear infinite;
@@ -96,7 +96,7 @@ export const Contacts = styled.div`
   #github {
     animation-delay: 0.7s;
   }
-  @keyframes animate {
+  @keyframes animate { 
     from {
       filter: hue-rotate(0deg);
     }

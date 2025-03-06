@@ -21,7 +21,9 @@ const PROJECTS = [
     name: "Money",
     surname: "Transfer",
     description:
-      "Project with the purpose of converting and transferring currencies from different countries. Developed with the concepts and fundamentals of React, using Styled-Components, Axios and hooks and having an external Api for searching and listing currencies.",
+     
+      "Projeto com o propósito de converter e transferir moedas de diferentes países. Desenvolvido com os conceitos e fundamentos do React, utilizando Styled-Components, Axios e hooks, trabalhando tambem a responsividade e consumindo uma API externa para busca e listagem de moedas.",
+// 
     image: projeto01,
     url: "https://transfer-money.vercel.app/",
   },
@@ -30,7 +32,7 @@ const PROJECTS = [
     name: "Landing",
     surname: "Yoga",
     description:
-      "Simple and responsive landing page aimed at marketing an app. Developed with React, Styled-Components.",
+      "Página de destino simples e responsiva com o propósito de marketing de um aplicativo. Desenvolvido com React, Styled-Components.",
     image: projeto02,
     url: "https://landing-page-yoga-marieleribeiro.vercel.app/",
   },
@@ -39,7 +41,7 @@ const PROJECTS = [
     name: "Dashboard",
     surname: "Inbox",
     description:
-      "Project that aims to show the simple interface of an inbox, using React and Styled-Components.",
+      "Projeto que tem como objetivo mostrar a interface simples de uma caixa de entrada, utilizando React e Styled-Components.",
     image: projeto03,
     url: "https://dashboard-inbox.vercel.app/",
   },
@@ -78,9 +80,9 @@ export function Main() {
         <MediaContacts />
 
         <Pages>
-          <strong>0{currentProject.index + 1}</strong>
+          <strong>{String(currentProject.index + 1).padStart(2, '0')}</strong>
           <hr />
-          <strong>03</strong>
+          <strong>{String(PROJECTS.length).padStart(2, '0')}</strong>
         </Pages>
       </Footer>
     </>

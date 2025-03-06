@@ -5,8 +5,8 @@ export function Header() {
     <Container>
       <Name>Mariele</Name>
       <Wrapper>
-        <a href="/">Projects</a>
-        <a href="/about">Let’s Talk ✌</a>
+        <a href="/">Projetos</a>
+        <a href="/about">Vamos conversar ✌</a>
       </Wrapper>
     </Container>
   );

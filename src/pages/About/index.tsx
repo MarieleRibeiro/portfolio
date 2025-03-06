@@ -14,8 +14,8 @@ export function About() {
           <h2>Ribeiro</h2>
           <Span>
             <p>
-              Olá, me chamo Mariele e estou estudando programação desde de 2020,
-              mas precisamente a 01 ano nessa área.
+              Olá, me chamo Mariele e estou na área de programação desde de 2020,
+              comecei a estudar programação por conta própria, me apaixonei pela área e decidi me dedicar a ela.
             </p>
           </Span>
           <p>
@@ -27,7 +27,13 @@ export function About() {
           <p>
             Desde que comecei venho estudando diariamente e colocando em prática
             todo o conhecimento adquirido ao longo desse tempo. E nesse momento,
-            mais preparada busco uma oportunidade na área de Front-End.
+            mais preparada busco uma oportunidade na área de Front-End. Tenho
+            conhecimento em HTML, CSS, JavaScript, React, Next.js, TypeScript,
+            Tailwind, Styled Components, Git, GitHub, Figma, etc. Atualmente estou trabalhando com flutter e dart. 
+          </p>
+          <p>
+            Hoje, estou em busca de uma oportunidade para aplicar meus conhecimentos
+            e continuar crescendo profissionalmente na área de tecnologia.
           </p>
         </Wrapper>
         <Profile>
