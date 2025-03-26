@@ -1,15 +1,19 @@
-import { ThemeProvider } from "styled-components";
+
 import { Routes } from "./routes";
 
 import { GlobalStyle } from "./styles/global";
 import theme from "./styles/theme";
+import * as styled from 'styled-components';
+
+
+
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    <styled.ThemeProvider theme={theme}>
       <GlobalStyle />
       <Routes />
-    </ThemeProvider>
+      </styled.ThemeProvider>
   );
 }
 
