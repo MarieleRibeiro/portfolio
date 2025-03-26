@@ -32,7 +32,7 @@ export function About() {
             Tailwind, Styled Components, Git, GitHub, Figma, etc. Atualmente estou trabalhando com flutter e dart. 
           </p>
           <p>
-            Atualmente trabalho como desenvolvedora Front-end júnior, estou em busca de novas oportunidade para aplicar meus conhecimentos
+            No momento trabalho como desenvolvedora Front-end júnior, estou em busca de novas oportunidade para aplicar meus conhecimentos
             e continuar crescendo profissionalmente na área de tecnologia.
           </p>
         </Wrapper>
