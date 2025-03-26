@@ -58,9 +58,7 @@
     "type": "git",
     "url": "git+https://github.com/MarieleRibeiro/portfolio.git"
   },
-  "overrides": {
-    "caniuse-lite": "1.0.30001632"
-  },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
