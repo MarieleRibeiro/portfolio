@@ -25,7 +25,7 @@ const PROJECTS = [
       "Projeto com o propósito de converter e transferir moedas de diferentes países. Desenvolvido com os conceitos e fundamentos do React, utilizando Styled-Components, Axios e hooks, trabalhando tambem a responsividade e consumindo uma API externa para busca e listagem de moedas.",
 // 
     image: projeto01,
-    url: "https://transfer-money.vercel.app/",
+    url: "https://money-transfer-1nr8oed42-marieleribeiros-projects.vercel.app",
   },
   {
     index: 1,
