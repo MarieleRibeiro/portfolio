@@ -11,6 +11,7 @@ import {
   Span,
   Footer,
   Pages,
+  TitleContainer,
 } from "./styles";
 import { useState } from "react";
 import { MediaContacts } from "../footer";
@@ -21,9 +22,7 @@ const PROJECTS = [
     name: "Money",
     surname: "Transfer",
     description:
-     
-      "Projeto com o propósito de converter e transferir moedas de diferentes países. Desenvolvido com os conceitos e fundamentos do React, utilizando Styled-Components, Axios e hooks, trabalhando tambem a responsividade e consumindo uma API externa para busca e listagem de moedas.",
-// 
+      "Desenvolvi uma aplicação de conversão e transferência de moedas utilizando React, Styled-Components, Axios e hooks. Este projeto demonstra minha proficiência em integrações com APIs externas para dados de câmbio em tempo real e a criação de interfaces responsivas e otimizadas para uma experiência de usuário fluida.",
     image: projeto01,
     url: "https://money-transfer-1nr8oed42-marieleribeiros-projects.vercel.app",
   },
@@ -32,7 +31,7 @@ const PROJECTS = [
     name: "Landing",
     surname: "Yoga",
     description:
-      "Página de destino simples e responsiva com o propósito de marketing de um aplicativo. Desenvolvido com React, Styled-Components.",
+      "Criação de uma Landing Page responsiva e visualmente atraente para fins de marketing de um aplicativo de yoga, utilizando React e Styled-Components. O projeto foca em design intuitivo e otimização para conversão, garantindo uma experiência de usuário engajadora em múltiplos dispositivos.",
     image: projeto02,
     url: "https://landing-page-yoga-marieleribeiro.vercel.app/",
   },
@@ -41,7 +40,7 @@ const PROJECTS = [
     name: "Dashboard",
     surname: "Inbox",
     description:
-      "Projeto que tem como objetivo mostrar a interface simples de uma caixa de entrada, utilizando React e Styled-Components.",
+      "Desenvolvimento de uma interface de caixa de entrada (Inbox) com React e Styled-Components, destacando princípios de componentização e design limpo. O projeto simula funcionalidades essenciais de um e-mail, focando na usabilidade e organização visual para uma navegação eficiente do usuário.",
     image: projeto03,
     url: "https://dashboard-inbox.vercel.app/",
   },
@@ -69,8 +68,10 @@ export function Main() {
           </Button>
         </Projects>
         <Wrapper>
-          <h1>{currentProject.name}</h1>
-          <h2>{currentProject.surname}</h2>
+          <TitleContainer>
+            <h1>{currentProject.name}</h1>
+            <h2>{currentProject.surname}</h2>
+          </TitleContainer>
           <Span>
             <p>{currentProject.description}</p>
           </Span>
@@ -80,9 +81,11 @@ export function Main() {
         <MediaContacts />
 
         <Pages>
-          <strong>{String(currentProject.index + 1).padStart(2, '0')}</strong>
-          <hr />
-          <strong>{String(PROJECTS.length).padStart(2, '0')}</strong>
+          <div className="pagination">
+            <span className="current">{currentProject.index + 1}</span>
+            <span className="separator">/</span>
+            <span className="total">{PROJECTS.length}</span>
+          </div>
         </Pages>
       </Footer>
     </>

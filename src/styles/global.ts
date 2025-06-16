@@ -21,7 +21,7 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 2.5rem 1rem;
- background: #252425;
+  background: #252425;
 
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -36,7 +36,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 6rem;
- color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -49,10 +49,10 @@ h2 {
 a {
   text-decoration: none; 
   display: inline-block; 
- color: #FFFFFF;
- font-weight: 400;
- font-size: 1.125rem;
- line-height: 22px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 22px;
 
  :hover {
    color: #E5A67C;

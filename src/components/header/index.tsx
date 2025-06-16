@@ -1,9 +1,9 @@
-import { Container, Name, Wrapper } from "./styles";
+import { Container, Wrapper } from "./styles";
 
 export function Header() {
   return (
     <Container>
-      <Name>Mariele</Name>
+      {/* <Name>Mariele</Name> */}
       <Wrapper>
         <a href="/">Projetos</a>
         <a href="/about">Vamos conversar ✌</a>

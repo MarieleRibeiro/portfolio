@@ -1,7 +1,7 @@
 import { Header } from "../../components/header";
 import { MediaContacts } from "../../components/footer";
 import { Content, Footer } from "../../components/main/styles";
-import { Wrapper, Span, Profile } from "./styles";
+import { Wrapper, Profile, TitleContainer } from "./styles";
 import photo from "../../assets/photo001.jpeg";
 
 export function About() {
@@ -10,30 +10,29 @@ export function About() {
       <Header />
       <Content>
         <Wrapper>
-          <h1>Mariele</h1>
-          <h2>Ribeiro</h2>
-          <Span>
-            <p>
-              Olá, me chamo Mariele e estou na área de programação desde de 2020,
-              comecei a estudar programação por conta própria, me apaixonei pela área e decidi me dedicar a ela.
-            </p>
-          </Span>
+          <TitleContainer>
+            <h1>Mariele</h1>
+            <h2>Ribeiro</h2>
+          </TitleContainer>
           <p>
-            Comecei sem muitas perpectivas mas com o passar do tempo o universo
-            da tecnologia acabou ganhando um espaço importante na minha vida, a
-            vontande de aprender coisas novas e o entusiasmo me levaram a
-            continuar e a querer crescer profissionalmente na área.
+            Olá! Sou Mariele, desenvolvedora Front-end apaixonada por criar interfaces intuitivas e experiências digitais impactantes. Desde 2020, venho me dedicando ao desenvolvimento web, transformando minha curiosidade inicial em uma carreira promissora na área de tecnologia.
           </p>
           <p>
-            Desde que comecei venho estudando diariamente e colocando em prática
-            todo o conhecimento adquirido ao longo desse tempo. E nesse momento,
-            mais preparada busco uma oportunidade na área de Front-End. Tenho
-            conhecimento em HTML, CSS, JavaScript, React, Next.js, TypeScript,
-            Tailwind, Styled Components, Git, GitHub, Figma, etc. Atualmente estou trabalhando com flutter e dart. 
+            Minha jornada na programação começou como autodidata, e com o tempo, a tecnologia se tornou uma parte fundamental da minha vida. A constante evolução da área e a oportunidade de criar soluções inovadoras me motivam a aprender e crescer cada vez mais.
           </p>
           <p>
-            No momento trabalho como desenvolvedora Front-end júnior, estou em busca de novas oportunidade para aplicar meus conhecimentos
-            e continuar crescendo profissionalmente na área de tecnologia.
+            Atualmente trabalho como desenvolvedora Front-end júnior, com foco em criar interfaces modernas e responsivas. Minha stack inclui:
+            <br />
+            • Front-end: HTML, CSS, JavaScript, React, Next.js, TypeScript
+            <br />
+            • Estilização: Tailwind, Styled Components
+            <br />
+            • Mobile: Flutter e Dart
+            <br />
+            • Ferramentas: Git, GitHub, Figma
+          </p>
+          <p>
+            Estou sempre em busca de novos desafios e oportunidades para aplicar meus conhecimentos, contribuir com projetos inovadores e continuar minha evolução profissional na área de tecnologia.
           </p>
         </Wrapper>
         <Profile>
